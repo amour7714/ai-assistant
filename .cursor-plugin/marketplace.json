@@ -1,0 +1,16 @@
+{
+  "name": "ai-assistant",
+  "owner": {
+    "name": "LANG"
+  },
+  "metadata": {
+    "description": "个人可复用的 Cursor skill、rule、MCP 与知识库"
+  },
+  "plugins": [
+    {
+      "name": "ai-kit",
+      "source": "ai-kit",
+      "description": "给 Agent 使用的技能、规则、MCP 和知识笔记"
+    }
+  ]
+}
