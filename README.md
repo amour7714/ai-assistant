@@ -16,6 +16,14 @@ ai-kit/
 
 知识笔记放在 `ai-kit/skills/personal-knowledge/references/`。对话里输入 `/personal-knowledge` 再说明要查或要记的内容。
 
+营销费用本体在 `ontology/`。本地查阅平台在 `ontology-studio/`，Agent 技能是 `ai-kit/skills/mkt-ontology/`。
+
+```bash
+./ontology-studio/serve.sh
+```
+
+浏览器打开 http://127.0.0.1:8765/ 。图谱、本体、知识库、指标、数据集都从这份本体和 `db_ontology_mkt` 的视图结构生成。改完本体后重新执行 `python3 ontology-studio/build_catalog.py`，再跑一次 `./scripts/install-local.sh`。
+
 ## 在这台电脑上启用
 
 ```bash
